@@ -1,6 +1,6 @@
 # Samplemirror
 
-
+Updated the README file to check if this is pushed to gitHub repo when updated.
 
 ## Getting started
 
