@@ -11,6 +11,6 @@ class my_decorator():
 @my_decorator.my_func
 def my_function(name,count):
     for i in range(count):
-        print("I am the function!"+name)
+        print("I am the function with count!"+name)
 
 my_function("test",count=5)
