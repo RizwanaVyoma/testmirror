@@ -1,3 +1,4 @@
+# Demo file to check the decorator working
 class my_decorator():
     def my_func(func):
         def wrapper(*args,**k):
