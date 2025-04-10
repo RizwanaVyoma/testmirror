@@ -1,1 +1,3 @@
 some sample content
+Testing the action in github action workflow
+on pushing the changes to main the workflow should trigger.
