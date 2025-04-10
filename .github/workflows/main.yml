@@ -1,0 +1,16 @@
+name: Simple Echo Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  echo-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello Message
+        run: echo "Hello from GitHub Actions on a Unix machine!"
+      - run: python3 --version
