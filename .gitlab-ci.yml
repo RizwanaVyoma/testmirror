@@ -10,10 +10,10 @@ vaas_docker_build:
     - docker:dind
 
   script:
-    - echo fHKESNtr9Dh@FT | sudo -S - su 
-    - cd /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
-    - ls
-    - rm -rf *
+    - sudo -S fHKESNtr9Dh@FT rm -rf /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
+    #- cd /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
+    #- ls
+    #- rm -rf *
     #- echo fHKESNtr9Dh@FT | sudo -S rm -rf *
     # - sudo chmod 666 /var/run/docker.sock
     #- docker rm $(docker ps -aq)
