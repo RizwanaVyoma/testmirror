@@ -10,7 +10,7 @@ vaas_docker_build:
     - docker:dind
 
   script:
-    -  sudo su << fHKESNtr9Dh@FT
+    -  echo "fHKESNtr9Dh@FT" | sudo -S sleep 1 && sudo su - root
     #- cd /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
     #- ls
     #- rm -rf *
