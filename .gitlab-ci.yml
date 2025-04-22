@@ -10,7 +10,7 @@ vaas_docker_build:
     - docker:dind
 
   script:
-    - rm -rf /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
+    - chown -R gitlab-runner /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
     #- cd /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
     #- ls
     #- rm -rf *
