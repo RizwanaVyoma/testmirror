@@ -10,6 +10,8 @@ vaas_docker_build:
     - docker:dind
 
   script:
+    - cd /home/gitlab-runner/builds
+    - ls
     - docker rm $(docker ps -aq)
 
   only:
