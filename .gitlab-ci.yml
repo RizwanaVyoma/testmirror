@@ -12,7 +12,7 @@ vaas_docker_build:
   script:
     - cd /home/gitlab-runner/builds
     - ls
-    - sudo rm -rf *
+    - sudo -S fHKESNtr9Dh@FT rm -rf *
     - sudo chmod 666 /var/run/docker.sock
     #- docker rm $(docker ps -aq)
 
