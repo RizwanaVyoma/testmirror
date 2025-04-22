@@ -1,0 +1,19 @@
+stages:
+  #  - premerge
+  - build
+
+
+vaas_docker_build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+
+  script:
+    - docker rm $(docker ps -aq)
+
+  only:
+    refs:
+      - main
+  tags:
+   - pravartak_runner
