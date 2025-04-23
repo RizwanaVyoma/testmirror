@@ -10,7 +10,7 @@ vaas_docker_build:
     - docker:dind
 
   script:
-    -  echo 'gitlab-runner:git123' | sudo chpasswd 
+    -  echo 'gitlab-runner:git123' | sudo -S chpasswd 
     #- cd /home/gitlab-runner/builds/H5mEtGm4h/0/vyoma_projects
     #- ls
     #- rm -rf *
